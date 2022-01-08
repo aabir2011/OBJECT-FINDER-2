@@ -1,0 +1,38 @@
+body {
+    background-size : cover;
+}
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+}
+#status , #number_of_objects, #start{
+    font-size: 18px;
+}
+.copy_right_footer {
+    position : fixed;
+    color: #6c757d;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    line-height: 2;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+canvas{
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 130px;
+    box-shadow: 5px 5px 5px white;
+}
+.heading_div2{
+    background-color: white;
+    color: #000;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 100%;
+    box-shadow: 3px 5px 10px ;
+}
+#start:hover{
+    box-shadow: 5px 5px 5px skyblue;
+}
